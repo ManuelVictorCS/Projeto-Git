@@ -1,0 +1,19 @@
+Aula 22
+
+Instalar o git
+Após a instalação do git, clicar com o botão direito do mouse e dar um git bash na pasta do arquivo, para abrir o terminal
+Após abrir o terminal da pasta, dar um git init para criar o repositório
+comandos:
+git init - comando para criar um novo repositório GIT (git init)
+git status - mostra o status atual do repositório (se sofreram alterações e não foram commitadas) (git status)
+git config - configurar um e-mail, nome, etc... (git config --global user.email sam@google.com)
+git add - adicionar arquivos ao índice. . Por exemplo, o seguinte comando irá adicionar um arquivo chamado temp.txt presente no diretório local para o índice (git add temp.txt)
+git clone - comando usado para clonar repositórios de servidores onlines. Só pegar o link do repositório no GitHub (git clone alex@93.188.160.58:/path/to/repository)
+	    se o repositório é local, basta usar (git clone /path/to/repository)
+git commit - comando para atualizar o repositporio com as novas alterações feitas (git commit –m “cmensagem informando o q foi alterado pra n deixar o coitado do programador perdido”)
+git push - comando para notificar quais foram as alterações feitas para o ramo mestre do repositório (git push origin master)
+git branch - comando para listar, criar ou excluir ramos (git branch)
+ 	     Para excluir um ramo: git branch –d <branch-name>
+git pull - comando para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado (git pull)
+
+
